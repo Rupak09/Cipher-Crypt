@@ -33,7 +33,7 @@ def main():
             elif img.size == (512, 512):
                 large_images.append(img)
             else:
-              st.error("Please upload images of the right dimensions (256x256 or 512x512 pixels)")
+              st.error("Please upload images of the right dimensions (256x256 or 512x512 pixels)!")
               break     
 
         # Place large images on separate canvases
@@ -52,10 +52,9 @@ def main():
                     canvas.paste(small_images[i + j], (x_offset, y_offset))
             canvas_list.append(canvas)
 
-        # Display the canvases side by side
-        columns = st.columns(len(canvas_list))
+        # Display the canvases
         for i, canvas in enumerate(canvas_list):
-          columns[i].image(canvas, caption=f"Canvas {i + 1}")
+            st.image(canvas, caption=f"Canvas {i + 1}")
 
         # Encrypt button
         if st.button("Encrypt and Decrypt Images"):
