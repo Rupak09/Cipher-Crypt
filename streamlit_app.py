@@ -453,4 +453,4 @@ if uploaded_file is not None:
         # Display the grayscale image in Streamlit
         st.image(grayscale_image, caption='Decrypted Grayscale Image', width=400)
         st.image(uploaded_file,width=400)
-        st.success("Image Decrypted!") 
+        st.success("Image Decrypted!!") 
