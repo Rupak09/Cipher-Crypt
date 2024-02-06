@@ -109,7 +109,7 @@ def sha_256(image):
     gray_array = np.array(gray_image)
 
 
-    # Generating SHA-256
+    # Generating SHA-256 key
     hash_sha256 = hashlib.sha256()
     hash_sha256.update(gray_array.tobytes())
     hash_hexdigest = hash_sha256.hexdigest()
