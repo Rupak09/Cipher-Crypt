@@ -9,7 +9,7 @@
 
 ### 2. Fork the Repository
 
-Click on the uppermost "Fork" button on the [ImageGuardian repository](https://github.com/Rupak09/Cipher-Crypt.git).
+Click on the uppermost "Fork" button on the [Cipher Crypt repository](https://github.com/Rupak09/Cipher-Crypt.git).
 
 ### 3. Clone your Forked Copy
 
