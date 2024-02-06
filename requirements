@@ -2,3 +2,4 @@ streamlit
 numpy
 Pillow
 matplot
+hashlib
