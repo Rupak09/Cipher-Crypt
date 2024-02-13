@@ -112,5 +112,10 @@ git clone https://github.com/<your_user_name>/Cipher-Crypt.git
 pip install -r requirements.txt
 ```
 
+### 5. Run locally:
+```bash  
+streamlit run app1.py
+```
+
 for further queries contact: rupakr31@gmail.com
 
